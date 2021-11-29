@@ -500,13 +500,13 @@
             },
             "fields": {
                 "name": {
-                    "en-US": "John Doe"
+                    "en-US": "Borstch"
                 },
                 "title": {
-                    "en-US": "Web Developer"
+                    "en-US": "Platform for development of web applications"
                 },
                 "company": {
-                    "en-US": "ACME"
+                    "en-US": "Borstch"
                 },
                 "shortBio": {
                     "en-US": "Research and recommendations for modern stack websites."
