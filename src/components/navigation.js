@@ -9,18 +9,18 @@ const Navigation = () => (
       <span className={styles.logo} />
       <span className={styles.navigationItem}>Borstch</span>
     </Link>
-    {/* <ul className={styles.navigation}>
+    <ul className={styles.navigation}>
       <li className={styles.navigationItem}>
-        <Link to="/" activeClassName="active">
-          Home
+        <Link to="https://borstch.app" activeClassName="active">
+          Open app
         </Link>
       </li>
-      <li className={styles.navigationItem}>
+      {/* <li className={styles.navigationItem}>
         <Link to="/blog/" activeClassName="active">
           Blog
         </Link>
-      </li>
-    </ul> */}
+      </li> */}
+    </ul>
   </nav>
 )
 
