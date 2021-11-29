@@ -36,8 +36,8 @@ if (!spaceId || !accessToken) {
 
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Contentful Starter",
-    description: "Official Contentful Gatsby Starter",
+    title: "Borstch",
+    description: "Platform for websites and web applications development",
   },
   plugins: [
     "gatsby-transformer-remark",
