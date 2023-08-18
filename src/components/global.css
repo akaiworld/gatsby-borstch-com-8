@@ -103,4 +103,5 @@ code {
 pre {
     background-color: var(--black-fade-5);
     padding: 8px 16px;
+    white-space: break-spaces;
 }
