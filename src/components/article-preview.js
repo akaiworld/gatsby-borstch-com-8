@@ -17,7 +17,11 @@ const ArticlePreview = ({ posts }) => {
           return (
             <li key={post.slug}>
               <Link to={`/blog/${post.slug}`} className={styles.link}>
-                <GatsbyImage alt="" image={post.heroImage?.gatsbyImageData} gradient={post.heroGradient} />
+                {post.heroImage ? (
+                <GatsbyImage className={styles.image} alt={post.title} image={post.heroImage?.gatsbyImageData} />
+                ) : post.heroGradient ? (
+                    <div className={styles.image} style={{ height: 181, background: post.heroGradient }} />
+                ) : null}
                 <h2 className={styles.title}>{post.title}</h2>
               </Link>
               <div
