@@ -90,6 +90,7 @@ export const pageQuery = graphql`
           src
         }
       }
+      heroGradient
       body {
         childMarkdownRemark {
           html
